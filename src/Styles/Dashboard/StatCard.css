@@ -1,0 +1,24 @@
+.stat-card {
+  background: white;
+  border-radius: 12px;
+  padding: 20px;
+  border: 1px solid #e5e7eb;
+}
+
+.stat-label {
+  color: #6b7280;
+  font-size: 14px;
+  margin: 12px 0 4px;
+}
+
+.stat-value {
+  font-size: 28px;
+  font-weight: 700;
+  margin: 0;
+}
+
+.stat-sublabel {
+  color: #9ca3af;
+  font-size: 13px;
+  margin-top: 4px;
+}
