@@ -12,12 +12,14 @@ export default function App() {
       <BrowserRouter>
         <div className="app-layout">
           <Sidebar />
-          <Routes>
-            <Route path="/" element={<Dashboard />}></Route>
-            <Route path="/inventory" element={<Inventory />}></Route>
-            <Route path="/stock-history" element={<StockHistory />}></Route>
-            <Route path="/settings" element={<Settings />}></Route>
-          </Routes>
+          <main>
+            <Routes>
+              <Route path="/" element={<Dashboard />}></Route>
+              <Route path="/inventory" element={<Inventory />}></Route>
+              <Route path="/stock-history" element={<StockHistory />}></Route>
+              <Route path="/settings" element={<Settings />}></Route>
+            </Routes>
+          </main>
         </div>
       </BrowserRouter>
     </>
