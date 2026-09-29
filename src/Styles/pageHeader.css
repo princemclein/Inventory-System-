@@ -1,0 +1,8 @@
+.page-header-title {
+  font-size: 35px;
+}
+
+.page-header-subtitle {
+  font-size: 16px;
+  color: var(--subtitle-color);
+}
