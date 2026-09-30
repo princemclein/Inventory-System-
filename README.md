@@ -36,7 +36,7 @@ This project is part of my backend development learning journey. Through this pr
 
 - **Frontend:** React
 - **Backend:** Node.js / Express.js
-- **Database:** [Database]
+- **Database:** Supabase
 - **Tools:** Git, GitHub, VS Code
 
 ## Features
@@ -56,7 +56,7 @@ This project is part of my backend development learning journey. Through this pr
 
 ## Project Status
 
-🚧 **Currently in development**
+**Currently in development**
 
 This project is actively being developed as I learn more about backend development.
 
