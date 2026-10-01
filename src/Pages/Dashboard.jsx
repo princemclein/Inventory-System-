@@ -1,7 +1,8 @@
+import { Box, Database, AlertTriangle, XCircle } from "lucide-react";
 import "../Styles/Pages/Dashboard.css";
 import PageHeader from "../Components/PageHeader.jsx";
 import StatCard from "../Components/Dashboard/StatCard.jsx";
-import { Box, Database, AlertTriangle, XCircle } from "lucide-react";
+import RecentActivityTable from "../Components/Dashboard/RecentActivityTable.jsx";
 
 export default function Dashboard() {
   return (
@@ -31,6 +32,9 @@ export default function Dashboard() {
           value={1}
         />
       </div>
+
+      {/* Recent Stock Activity table */}
+      <RecentActivityTable />
     </>
   );
 }
