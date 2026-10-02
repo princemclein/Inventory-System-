@@ -12,7 +12,6 @@ export default function Dashboard() {
         title="Dashboard"
         subtitle="Overview of your inventory and recent activity."
       />
-
       {/* 4 Status Card */}
       <div className="stat-cards-row">
         <StatCard icon={<Box size={30} />} label="Total Products" value={6} />
@@ -32,9 +31,10 @@ export default function Dashboard() {
           value={1}
         />
       </div>
-
       {/* Recent Stock Activity table */}
-      <RecentActivityTable />
+      <div className="recent-card">
+        <RecentActivityTable />
+      </div>
     </>
   );
 }

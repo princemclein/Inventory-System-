@@ -1,3 +1,6 @@
+import "../../Styles/Dashboard/RecentActivityTable.css";
+import Badge from "./Badge.jsx";
+
 const activity = [
   {
     time: "Sep 26, 2025 11:42 AM",
@@ -36,6 +39,12 @@ const activity = [
   },
 ];
 
+function getActionVariant(action) {
+  if (action === "Added") return "success";
+  if (action === "Removed") return "danger";
+  if (action === "Updated") return "info";
+}
+
 export default function RecentActivityTable() {
   return (
     <table>
@@ -55,7 +64,11 @@ export default function RecentActivityTable() {
             <tr key={item.time}>
               <td>{item.time}</td>
               <td>{item.product}</td>
-              <td>{item.action}</td>
+              <td>
+                <Badge variant={getActionVariant(item.action)}>
+                  {item.action}
+                </Badge>
+              </td>
               <td>{item.quantity}</td>
               <td>{item.user}</td>
             </tr>
