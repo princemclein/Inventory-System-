@@ -20,6 +20,20 @@ const activity = [
     quantity: "-10",
     user: "Admin",
   },
+  {
+    time: "Sep 25, 2025 12:50 PM",
+    product: "LED",
+    action: "Added",
+    quantity: "+50",
+    user: "Admin",
+  },
+  {
+    time: "Sep 25, 2025 3:24 PM",
+    product: "9V Batteries",
+    action: "Added",
+    quantity: "+5",
+    user: "Admin",
+  },
 ];
 
 export default function RecentActivityTable() {
