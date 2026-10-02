@@ -3,7 +3,10 @@
   grid-template-columns: repeat(4, 1fr);
   gap: 10px;
 }
+
 .recent-card {
   background: white;
   border: 1px solid hsla(0, 0%, 0%, 0.177);
+  border-radius: 5px;
+  padding: 20px;
 }

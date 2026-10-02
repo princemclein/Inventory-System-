@@ -1,8 +1,8 @@
 .stat-card {
   background: white;
-  border-radius: 12px;
+  border-radius: 5px;
   padding: 24px;
-  border: 1px solid #e5e7eb;
+  border: 1px solid hsla(0, 0%, 0%, 0.177);
 }
 
 .stat-header {
