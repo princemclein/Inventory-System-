@@ -3,6 +3,7 @@ import "../Styles/Pages/Dashboard.css";
 import PageHeader from "../Components/PageHeader.jsx";
 import StatCard from "../Components/Dashboard/StatCard.jsx";
 import RecentActivityTable from "../Components/Dashboard/RecentActivityTable.jsx";
+import LowStockTable from "../Components/Dashboard/LowStockTable.jsx";
 
 export default function Dashboard() {
   return (
@@ -31,9 +32,15 @@ export default function Dashboard() {
           value={1}
         />
       </div>
-      {/* Recent Stock Activity table */}
-      <div className="recent-card">
-        <RecentActivityTable />
+      <div className="dashboard-tables-row">
+        {/* Recent Stock Activity table */}
+        <div className="recent-card">
+          <RecentActivityTable />
+        </div>
+        {/* Low Stock Items table */}
+        <div className="low-stock-card">
+          <LowStockTable />
+        </div>
       </div>
     </>
   );
